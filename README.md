@@ -21,14 +21,11 @@ The core workflow is implemented in **Google Earth Engine** with optional **Pyth
 
 You need a GEE account to run the scripts.
 
-1. Log in to the GEE Code Editor.  
-2. Load the main script (e.g., `code/ndci_bsl_main.js`).  
+1. Log in to the GEE Code Editor and set up authenticationtication.  
+2. Load Python script in Text Editor.  
 3. Set your:
    - Study region (Bay St. Louis AOI),
    - Time range,
    - Output folder on Google Drive or Earth Engine assets.
 4. Run the script to generate monthly NDCI composites and zonal statistics.
-
-### Python (optional)
-
-Python is used for figure reproduction and extended analysis.
+5.  Download and run post analysis
